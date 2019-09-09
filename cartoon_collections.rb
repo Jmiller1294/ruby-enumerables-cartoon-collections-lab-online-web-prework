@@ -10,7 +10,7 @@ def summon_captain_planet(calls)
   calls.collect do |powers| 
     puts "#{powers}!"
   end
-  calls
+  
 end
 
 def long_planeteer_calls# code an argument here
