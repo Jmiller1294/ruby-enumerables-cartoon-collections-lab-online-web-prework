@@ -11,7 +11,7 @@ def summon_captain_planet(calls)
     puts "#{powers}!"
     
   end
-  return 
+  calls
 end
 
 def long_planeteer_calls# code an argument here
