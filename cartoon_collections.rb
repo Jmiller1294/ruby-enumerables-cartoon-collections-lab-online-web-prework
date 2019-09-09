@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(calls)
   # Your code here
-  calls.map do |elements| 
+  calls.collect do |elements| 
     puts "#{elements.capitalize}!"
   end
   calls
