@@ -30,8 +30,9 @@ def find_the_cheese(cheese)
     if cheese.include?(cheese_types)
        puts "#{types}"
     else 
+      
     end
   end
-  return nil
+  
 end
 
