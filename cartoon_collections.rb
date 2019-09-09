@@ -19,6 +19,7 @@ def long_planeteer_calls(calls)
       puts "#{words}"
     else false
     end
+    calls
   end
   
 end
