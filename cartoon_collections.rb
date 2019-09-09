@@ -1,9 +1,9 @@
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
-  num = 0
+  
   dwarves.each_with_index do |item, index|
     if item.index[0]
-      puts "#i"
+      puts "#{item}"
   end
   
 end
