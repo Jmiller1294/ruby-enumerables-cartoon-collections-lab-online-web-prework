@@ -8,7 +8,7 @@ end
 def summon_captain_planet(calls)
   # Your code here
   calls.collect do |powers| 
-    puts "#{powers.capitalize!}" + "!"
+    puts "#{powers.capitalize}" + "!"
     
   end
   calls
