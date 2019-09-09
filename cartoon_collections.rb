@@ -17,7 +17,7 @@ def long_planeteer_calls(calls)
   calls.collect do |words|
     if words.length > 4
       puts "#{words}"
-    else nil
+    else 
     end
     
   end
